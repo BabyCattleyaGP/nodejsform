@@ -12,16 +12,22 @@ app.set('views',path.join(__dirname,'views'));
 app.set('view engine', 'hbs');
 //set public folder as static folder for static file
 app.use(express.static('public'));
+
 //route untuk halaman home
 app.get('/',(req, res) => {
   //render file index.hbs
-  res.render('index');
+  res.render('index', {
+      name : "Baby Cattleya"
+  });
 });
  
-//route untuk halaman about
-app.get('/about',(req, res) => {
-  res.send('This is about page');
-});
+//route untuk halaman home dengan parameter name
+app.get('/:name',(req, res) => {
+    //render file index.hbs
+    res.render('index',{
+      name : req.params.name
+    });
+  });
  
 app.listen(8000, () => {
   console.log('Server is running at port 8000');
