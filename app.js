@@ -37,7 +37,9 @@ app.post('/post',(req, res) => {
 //render file form.hbs
 res.render('index',{
     //ambil value dari textname
-    name : req.body.textname
+    name : req.body.name,
+    npm : req.body.npm,
+    email : req.body.email
 });
 });
  
