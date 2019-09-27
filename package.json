@@ -1,7 +1,7 @@
 {
   "name": "tugas",
   "version": "1.0.0",
-  "description": "tugas mobcom form node js",
+  "description": "Tugas Mobile Computing, Membuat Form Input dan Menampilkan dengan NodeJS",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -1,0 +1,35 @@
+body{
+    background-color: #b6e0c6;
+    font-family: 'Lato', sans-serif;
+}
+
+.box {
+    background-color: white;
+    width: 50%;
+    margin: 50px auto;
+    border-radius: 20px;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 40px 20px 10px 15px;
+}
+
+.btn{
+    margin-bottom: 40px;
+    margin-top: 10px; 
+    border: none; 
+}
+
+.result{
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.photo{
+    margin: 10px 10px 40px 20px;
+    width: 20%;
+    height: 35%;
+    float: center;
+}
